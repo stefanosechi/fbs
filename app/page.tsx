@@ -122,7 +122,7 @@ export default function HomePage() {
         <div className="absolute inset-0">
           <Image
             src="/hero-falegnameria.jpg"
-            alt="FBS Arredamenti - Mobili su misura di qualità"
+            alt="FBS Arredamenti - Arredamento in legno su misura di qualità"
             fill
             className="object-cover"
             priority
@@ -151,7 +151,7 @@ export default function HomePage() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="text-lg md:text-xl lg:text-2xl mb-8 text-white/90 leading-relaxed max-w-3xl mx-auto"
           >
-            Da oltre 20 anni realizziamo mobili completamente personalizzati unendo tradizione artigianale e innovazione
+            Da oltre 30 anni realizziamo arredamenti nel nord Sardegna. Unendo tradizione artigianale e innovazione
             tecnologica per creare spazi unici.
           </motion.p>
 
@@ -266,7 +266,7 @@ export default function HomePage() {
           >
             <h2 className="text-3xl md:text-5xl font-bold mb-6">Perché Scegliere FBS Arredamenti</h2>
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Ogni mobile che realizziamo è un progetto unico, studiato nei minimi dettagli per ottimizzare spazi e
+              Ogni arredo che realizziamo è un progetto unico, studiato nei minimi dettagli per ottimizzare spazi e
               funzionalità. Utilizziamo solo materiali di prima qualità e tecnologie all'avanguardia per garantire
               durata e bellezza nel tempo.
             </p>
@@ -520,21 +520,21 @@ export default function HomePage() {
               </Link>
               <div className="flex gap-4">
                 <a
-                  href="https://wa.me/393123456789"
+                  href="https://wa.me/393382878847"
                   className="w-12 h-12 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white/20 transition-colors"
                   aria-label="WhatsApp"
                 >
                   <MessageCircle size={20} />
                 </a>
                 <a
-                  href="tel:+393123456789"
+                  href="tel:+393382878847"
                   className="w-12 h-12 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white/20 transition-colors"
                   aria-label="Telefono"
                 >
                   <Phone size={20} />
                 </a>
                 <a
-                  href="mailto:info@fbsarredamenti.it"
+                  href="mailto:sechibruno.fe@libero.it"
                   className="w-12 h-12 rounded-full bg-white/10 text-white flex items-center justify-center hover:bg-white/20 transition-colors"
                   aria-label="Email"
                 >

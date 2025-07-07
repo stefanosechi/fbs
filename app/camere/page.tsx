@@ -7,20 +7,19 @@ import Image from "next/image"
 import Link from "next/link"
 
 const camereImages = [
-  { id: 1, src: "/placeholder.svg?height=600&width=800", alt: "Camera matrimoniale moderna", category: "matrimoniale" },
-  { id: 2, src: "/placeholder.svg?height=600&width=800", alt: "Camera singola", category: "singola" },
-  { id: 3, src: "/placeholder.svg?height=600&width=800", alt: "Camera ragazzi", category: "ragazzi" },
-  {
-    id: 4,
-    src: "/placeholder.svg?height=600&width=800",
-    alt: "Camera matrimoniale classica",
-    category: "matrimoniale",
-  },
-  { id: 5, src: "/placeholder.svg?height=600&width=800", alt: "Camera bambini", category: "bambini" },
-  { id: 6, src: "/placeholder.svg?height=600&width=800", alt: "Camera ospiti", category: "singola" },
+  { id: 1, src: "/foto camere matrimoniali/cameramatrimoniale1.jpg", alt: "Camera matrimoniale", category: "matrimoniale" },
+  { id: 2, src: "/foto camere singole/camerasingola1.jpg", alt: "Camera singola", category: "singola" },
+  { id: 3, src: "/foto camere matrimoniali/cameramatrimoniale2.jpg", alt: "Camera matrimoniale", category: "matrimoniale" },
+  { id: 4, src: "/foto camere singole/camerasingola2.jpg", alt: "Camera singola", category: "singola" },
+  { id: 5, src: "/foto camere matrimoniali/cameramatrimoniale3.jpg", alt: "Camera matrimoniale", category: "matrimoniale" },
+  { id: 6, src: "/foto camere singole/camerasingola3.jpg", alt: "Camera singola", category: "singola" },
+  { id: 7, src: "/foto camere matrimoniali/cameramatrimoniale4.jpg", alt: "Camera matrimoniale", category: "matrimoniale" },
+  { id: 8, src: "/foto camere singole/camerasingola4.jpg", alt: "Camera singola", category: "singola" },
+  { id: 9, src: "/foto camere matrimoniali/cameramatrimoniale5.jpg", alt: "Camera matrimoniale", category: "matrimoniale" },
+  { id: 10, src: "/foto camere singole/camerasingola5.jpg", alt: "Camera singola", category: "singola" },
 ]
 
-const categories = ["tutte", "matrimoniale", "singola", "ragazzi", "bambini"]
+const categories = ["tutte", "matrimoniale", "singola"]
 
 export default function CamerePage() {
   const [selectedCategory, setSelectedCategory] = useState("tutte")

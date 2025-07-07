@@ -7,15 +7,11 @@ import Image from "next/image"
 import Link from "next/link"
 
 const ufficiImages = [
-  { id: 1, src: "/placeholder.svg?height=600&width=800", alt: "Ufficio direzionale", category: "direzionale" },
-  { id: 2, src: "/placeholder.svg?height=600&width=800", alt: "Ufficio operativo", category: "operativo" },
-  { id: 3, src: "/placeholder.svg?height=600&width=800", alt: "Home office", category: "home-office" },
-  { id: 4, src: "/placeholder.svg?height=600&width=800", alt: "Sala riunioni", category: "meeting" },
-  { id: 5, src: "/placeholder.svg?height=600&width=800", alt: "Studio professionale", category: "home-office" },
-  { id: 6, src: "/placeholder.svg?height=600&width=800", alt: "Ufficio moderno", category: "operativo" },
+  { id: 1, src: "/foto uffici/ufficio1.jpg", alt: "Ufficio", category: "" },
+  { id: 2, src: "/foto uffici/ufficio2.jpg", alt: "Ufficio", category: "" },
 ]
 
-const categories = ["tutte", "direzionale", "operativo", "home-office", "meeting"]
+const categories = ["tutte"]
 
 export default function UfficiPage() {
   const [selectedCategory, setSelectedCategory] = useState("tutte")

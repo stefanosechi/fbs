@@ -11,7 +11,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">FBS Arredamenti</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Da oltre 20 anni realizziamo arredamenti su misura di alta qualità, unendo tradizione artigianale e
+              Da oltre 20 anni realizziamo arredamenti su misura di alta qualità in Sardegna, unendo tradizione artigianale e
               innovazione per creare spazi unici.
             </p>
             <div className="flex gap-4">

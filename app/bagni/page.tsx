@@ -7,15 +7,28 @@ import Image from "next/image"
 import Link from "next/link"
 
 const bagniImages = [
-  { id: 1, src: "/placeholder.svg?height=600&width=800", alt: "Bagno moderno", category: "moderna" },
-  { id: 2, src: "/placeholder.svg?height=600&width=800", alt: "Bagno classico", category: "classica" },
-  { id: 3, src: "/placeholder.svg?height=600&width=800", alt: "Bagno spa", category: "spa" },
-  { id: 4, src: "/placeholder.svg?height=600&width=800", alt: "Bagno minimalista", category: "moderna" },
-  { id: 5, src: "/placeholder.svg?height=600&width=800", alt: "Bagno di servizio", category: "servizio" },
-  { id: 6, src: "/placeholder.svg?height=600&width=800", alt: "Bagno luxury", category: "spa" },
+  { id: 1, src: "/foto bagni moderni/bagnomoderno1.jpg", alt: "Bagno moderno", category: "moderni" },
+  { id: 2, src: "/foto bagni classici/bagnoclassico1.jpg", alt: "Bagno classico", category: "classici" },
+  { id: 3, src: "/foto bagni servizi/bagnoservizi1.jpg", alt: "Bagno di servizio", category: "servizi" },
+  { id: 4, src: "/foto bagni moderni/bagnomoderno2.jpg", alt: "Bagno moderno", category: "moderni" },
+  { id: 5, src: "/foto bagni classici/bagnoclassico2.jpg", alt: "Bagno classico", category: "classici" },
+  { id: 6, src: "/foto bagni servizi/bagnoservizi2.jpg", alt: "Bagno di servizio", category: "servizi" },
+  { id: 7, src: "/foto bagni moderni/bagnomoderno3.jpg", alt: "Bagno moderno", category: "moderni" },
+  { id: 8, src: "/foto bagni classici/bagnoclassico3.jpg", alt: "Bagno classico", category: "classici" },
+  { id: 9, src: "/foto bagni servizi/bagnoservizi3.jpg", alt: "Bagno di servizio", category: "servizi" },
+  { id: 10, src: "/foto bagni moderni/bagnomoderno4.jpg", alt: "Bagno moderno", category: "moderni" },
+  { id: 11, src: "/foto bagni classici/bagnoclassico4.jpg", alt: "Bagno classico", category: "classici" },
+  { id: 12, src: "/foto bagni servizi/bagnoservizi4.jpg", alt: "Bagno di servizio", category: "servizi" },
+  { id: 13, src: "/foto bagni moderni/bagnomoderno5.jpg", alt: "Bagno moderno", category: "moderni" },
+  { id: 14, src: "/foto bagni classici/bagnoclassico5.jpg", alt: "Bagno classico", category: "classici" },
+  { id: 15, src: "/foto bagni servizi/bagnoservizi5.jpg", alt: "Bagno di servizio", category: "servizi" },
+  
+
+
+
 ]
 
-const categories = ["tutte", "moderna", "classica", "spa", "servizio"]
+const categories = ["tutte", "moderni", "classici", "servizi"]
 
 export default function BagniPage() {
   const [selectedCategory, setSelectedCategory] = useState("tutte")

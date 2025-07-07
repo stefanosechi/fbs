@@ -8,9 +8,9 @@ export function WhatsAppChat() {
   const [isOpen, setIsOpen] = useState(false)
   const [showScrollTop, setShowScrollTop] = useState(false)
 
-  const whatsappNumber = "393123456789"
+  const whatsappNumber = "393382878847"
   const defaultMessage =
-    "Ciao! Sono interessato ai vostri arredamenti su misura. Potreste fornirmi maggiori informazioni?"
+    "Ciao! Ho un lavoro da affidarvi."
 
   // Gestione scroll per mostrare/nascondere il pulsante scroll top
   useEffect(() => {

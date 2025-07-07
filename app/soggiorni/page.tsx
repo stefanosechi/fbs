@@ -7,15 +7,18 @@ import Image from "next/image"
 import Link from "next/link"
 
 const soggiorniImages = [
-  { id: 1, src: "/placeholder.svg?height=600&width=800", alt: "Soggiorno moderno", category: "moderna" },
-  { id: 2, src: "/placeholder.svg?height=600&width=800", alt: "Soggiorno classico", category: "classica" },
-  { id: 3, src: "/placeholder.svg?height=600&width=800", alt: "Soggiorno industriale", category: "industriale" },
-  { id: 4, src: "/placeholder.svg?height=600&width=800", alt: "Soggiorno minimalista", category: "moderna" },
-  { id: 5, src: "/placeholder.svg?height=600&width=800", alt: "Soggiorno rustico", category: "classica" },
-  { id: 6, src: "/placeholder.svg?height=600&width=800", alt: "Soggiorno contemporaneo", category: "moderna" },
+  { id: 1, src: "/foto soggiorni/soggiorno1.jpg", alt: "Soggiorno", category: "" },
+  { id: 2, src: "/foto soggiorni/soggiorno2.jpg", alt: "Soggiorno", category: "" },
+  { id: 3, src: "/foto soggiorni/soggiorno3.jpg", alt: "Soggiorno", category: "" },
+  { id: 4, src: "/foto soggiorni/soggiorno4.jpg", alt: "Soggiorno", category: "" },
+  { id: 5, src: "/foto soggiorni/soggiorno5.jpg", alt: "Soggiorno", category: "" },
+  { id: 6, src: "/foto soggiorni/soggiorno6.jpg", alt: "Soggiorno", category: "" },
+  { id: 7, src: "/foto soggiorni/soggiorno7.jpg", alt: "Soggiorno", category: "" },
+  { id: 8, src: "/foto soggiorni/soggiorno8.jpg", alt: "Soggiorno", category: "" },
+  { id: 9, src: "/foto soggiorni/soggiorno9.jpg", alt: "Soggiorno", category: "" },
 ]
 
-const categories = ["tutte", "moderna", "classica", "industriale"]
+const categories = ["tutte"]
 
 export default function SoggiorniPage() {
   const [selectedCategory, setSelectedCategory] = useState("tutte")
