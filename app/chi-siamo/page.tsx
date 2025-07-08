@@ -9,7 +9,7 @@ const timeline = [
   {
     year: "1990",
     title: "Fondazione",
-    description: "Nasce Falegnameri Bruno Sechi dalla passione per il legno e l'artigianato di qualità di Bruno",
+    description: "Nasce Falegnameria Bruno Sechi ad Alghero dalla passione per il legno e l'artigianato di qualità di Bruno",
   },
   {
     year: "2008",
@@ -101,7 +101,7 @@ export default function ChiSiamoPage() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">La Nostra Storia</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                FBS Arredamenti nasce dalla passione di una famiglia per l'arte del legno. Da oltre 30 anni realizziamo
+                FBS Arredamenti Alghero,Sassari, nasce dalla passione di una famiglia per l'arte del legno. Da oltre 30 anni realizziamo
                 mobili su misura unendo tradizione artigianale e innovazione tecnologica, per creare spazi unici che
                 rispecchiano la personalità di chi li vive.
               </p>

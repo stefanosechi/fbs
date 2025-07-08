@@ -7,9 +7,9 @@ import { Header } from "@/components/header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Falegnameria Bruno Sechi - Arredamenti su Misura",
+  title: "Falegnameria Bruno Sechi - Arredamenti su Misura ad Alghero e Sassari",
   description:
-    "Realizziamo arredamenti su misura per cucine, soggiorni, camere, uffici e bagni. Falegnameria artigianale di qualità.",
+    "Realizziamo arredamenti su misura  per cucine, soggiorni, camere, uffici e bagni. Falegnameria artigianale di qualità.",
   keywords: "falegnameria, arredamenti su misura, cucine, soggiorni, camere, uffici, bagni",
     generator: ''
 }

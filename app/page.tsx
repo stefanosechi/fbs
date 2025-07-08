@@ -58,6 +58,91 @@ const testimonials = [
     author: "Giulia P.",
     project: "Casa completa",
   },
+  {
+  id: 7,
+  text: "Abbiamo commissionato un mobile su misura per il nostro salotto ad Alghero: risultato impeccabile, vero lavoro di falegnameria artigianale.",
+  author: "Silvia C.",
+  project: "Mobile soggiorno",
+},
+{
+  id: 8,
+  text: "Grazie alla falegnameria Bruno Sechi abbiamo finalmente una cucina su misura perfetta per il nostro appartamento.",
+  author: "Franco D.",
+  project: "Cucina su misura",
+},
+{
+  id: 9,
+  text: "Servizio eccellente e attenzione ai dettagli. Il mobile è bellissimo.",
+  author: "Luisa M.",
+  project: "Mobile ingresso",
+},
+{
+  id: 10,
+  text: "Abbiamo arredato tutta la zona notte con mobili in legno realizzati su misura: qualità e precisione.",
+  author: "Davide R.",
+  project: "Zona notte completa",
+},
+{
+  id: 11,
+  text: "Professionisti seri e capaci. Il bancone in legno per il nostro locale ad Alghero è stato molto apprezzato dai clienti.",
+  author: "Marta G.",
+  project: "Bancone bar",
+},
+{
+  id: 12,
+  text: "Avevamo bisogno di una libreria su misura per uno studio. Realizzazione veloce, materiali ottimi.",
+  author: "Andrea L.",
+  project: "Libreria artigianale",
+},
+{
+  id: 13,
+  text: "La nostra casa vacanze ha preso vita grazie ai mobili in legno su misura realizzati da Bruno Sechi. Lavoro impeccabile.",
+  author: "Elena B.",
+  project: "Arredo casa vacanze",
+},
+{
+  id: 14,
+  text: "Qualita' Ottima.",
+  author: "Luca S.",
+  project: "Parete soggiorno",
+},
+{
+  id: 15,
+  text: "Consiglio vivamente questa falegnameria ad Alghero. Armadio a muro perfetto e consegnato nei tempi stabiliti.",
+  author: "Serena F.",
+  project: "Armadio a muro",
+},
+{
+  id: 16,
+  text: "Il nostro nuovo bagno a Sassari ha un mobile lavabo su misura unico, in legno massello: bellissimo e funzionale.",
+  author: "Giorgio N.",
+  project: "Mobile bagno",
+},
+{
+  id: 17,
+  text: "Falegnameria Bruno Sechi ha saputo interpretare esattamente lo stile che cercavamo per la nostra libreria.",
+  author: "Francesca V.",
+  project: "Libreria su misura",
+},
+{
+  id: 18,
+  text: "Abbiamo arredato una casa storica con mobili su misura in legno: risultato eccezionale.",
+  author: "Nicola P.",
+  project: "Arredi in legno",
+},
+{
+  id: 19,
+  text: "Cercavamo una falegnameria artigianale ad Alghero e abbiamo trovato il meglio. Tavolo da pranzo solido e bellissimo.",
+  author: "Chiara Z.",
+  project: "Tavolo da pranzo",
+},
+{
+  id: 20,
+  text: "Esperienza ottima: il team ha progettato e realizzato un mobile contenitore su misura perfetto per il nostro negozio.",
+  author: "Valerio E.",
+  project: "Mobile negozio",
+},
+
 ]
 
 export default function HomePage() {
@@ -151,7 +236,7 @@ export default function HomePage() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="text-lg md:text-xl lg:text-2xl mb-8 text-white/90 leading-relaxed max-w-3xl mx-auto"
           >
-            Da oltre 30 anni realizziamo arredamenti nel nord Sardegna. Unendo tradizione artigianale e innovazione
+            Da oltre 30 anni realizziamo arredamenti ad Alghero e nel nord Sardegna. Unendo tradizione artigianale e innovazione
             tecnologica per creare spazi unici.
           </motion.p>
 
@@ -483,7 +568,7 @@ export default function HomePage() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="FBS Arredamenti - Via Punta Cristallo 8, Alghero"
+                title="FBS Arredamenti - Via Punta Cristallo 8, Alghero (Sassari)"
               />
             </div>
             <div className="text-center mt-6">
