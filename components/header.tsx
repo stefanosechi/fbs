@@ -151,6 +151,12 @@ export function Header() {
               >
                 Contatti
               </Link>
+              <Link
+                href="/blog"
+                className="text-gray-700/95 hover:text-black transition-all duration-300 font-medium"
+              >
+                Blog
+              </Link>
             </nav>
 
             {/* CTA Desktop - Uniformati */}
@@ -336,6 +342,20 @@ export function Header() {
                       Contatti
                     </Link>
                   </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: 0.4 }}
+                  >
+                    <Link
+                      href="/blog"
+                      onClick={handleMobileMenuClose}
+                      className="block text-lg font-medium text-gray-700/95 hover:text-black transition-colors"
+                    >
+                      Blog
+                    </Link>
+                  </motion.div>
+                  
                 </nav>
 
                 {/* CTA Mobile Menu */}
