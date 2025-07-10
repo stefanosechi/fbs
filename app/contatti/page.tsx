@@ -229,33 +229,41 @@ export default function ContattiPage() {
 
       {/* Mappa */}
       <section className="py-16 md:py-24 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Vieni a Trovarci</h2>
-            <p className="text-lg text-gray-600">
-            </p>
-          </motion.div>
-
-          <div className="aspect-video rounded-lg overflow-hidden bg-gray-200">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.7802222420946!2d8.197901974977803!3d40.63472857140541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12dceb1a84cc2afb%3A0x9bae1ecbb6bdf5c8!2sFalegnameria%20Bruno%20Sechi%20Alghero!5e0!3m2!1snl!2snl!4v1751058308273!5m2!1snl!2snl"
-                width="100%"
-                height="100%"
-                style={{ border: 0, filter: "white(100%)" }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="FBS Arredamenti - Via Punta Cristallo 8, Alghero"
-            />
-          </div>
-        </div>
-      </section>
+              <div className="container mx-auto px-4">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.8 }}
+                  viewport={{ once: true }}
+                  className="text-center mb-12"
+                >
+                  <h2 className="text-3xl md:text-4xl font-bold mb-4">Vieni a Trovarci</h2>
+                  <p className="text-lg text-gray-600">
+                  </p>
+                </motion.div>
+      
+                <div className="max-w-4xl mx-auto">
+                  <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.7802222420946!2d8.197901974977803!3d40.63472857140541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12dceb1a84cc2afb%3A0x9bae1ecbb6bdf5c8!2sFalegnameria%20Bruno%20Sechi%20Alghero!5e0!3m2!1snl!2snl!4v1751058308273!5m2!1snl!2snl"
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0, filter: "white(100%)" }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="FBS Arredamenti - Via Punta Cristallo 8, Alghero (Sassari)"
+                    />
+                  </div>
+                  <div className="text-center mt-6">
+                    <p className="text-gray-600 mb-2">
+                      <strong>Via Punta Cristallo 8, 07041 Alghero (SS)</strong>
+                    </p>
+                    <p className="text-sm text-gray-500">Lun-Ven: 8:00-18:00 | Sab: 9:00-13:00 | Dom: Chiuso</p>
+                  </div>
+                </div>
+              </div>
+            </section>
     </div>
   )
 }

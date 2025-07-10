@@ -15,8 +15,8 @@ export function Footer() {
              className="mb-4 w-40 h-auto"
             />
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Da oltre 20 anni realizziamo arredamenti su misura di alta qualità in Sardegna, unendo tradizione artigianale e
-              innovazione per creare spazi unici.
+              Da oltre 30 anni realizziamo arredamenti su misura di alta qualità ad Alghero e Sassari,
+              unendo tradizione artigianale e innovazione per creare spazi unici.
             </p>
             <div className="flex gap-4">
               <a

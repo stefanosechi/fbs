@@ -21,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it">
+      <head>
+        <link rel="icon" href="/fbsfavicon.png" />
+      </head>
       <body className={`${inter.className} bg-white text-black antialiased`}>
         <Header />
         {children}
