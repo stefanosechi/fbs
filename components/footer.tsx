@@ -9,7 +9,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo e Descrizione */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">FBS Arredamenti</h3>
+            <img
+            src="/fbslogowhite.svg"
+             alt="FBS Arredamenti Logo"
+             className="mb-4 w-40 h-auto"
+            />
             <p className="text-gray-300 mb-6 leading-relaxed">
               Da oltre 20 anni realizziamo arredamenti su misura di alta qualità in Sardegna, unendo tradizione artigianale e
               innovazione per creare spazi unici.

@@ -44,7 +44,7 @@ const portfolioProjects = [
   {
     id: 4,
     title: "Showroom Moda - Porto Torres",
-    category: "commerciale",
+    category: "Attività Commerciali",
     year: "2023",
     location: "Porto Torres, SS",
     description: "Allestimento showroom con espositori e arredi su misura per boutique di lusso",
@@ -68,7 +68,7 @@ const portfolioProjects = [
   {
     id: 6,
     title: "Ristorante Gourmet - Alghero",
-    category: "commerciale",
+    category: "Attività Commerciali",
     year: "2022",
     location: "Alghero, SS",
     description: "Progettazione interni ristorante con cucina professionale e sala elegante",
@@ -77,7 +77,7 @@ const portfolioProjects = [
   },
 ]
 
-const categories = ["tutti", "residenziale", "commerciale"]
+const categories = ["tutti", "residenziale", "Attività Commerciali"]
 
 export default function PortfolioPage() {
   const [selectedCategory, setSelectedCategory] = useState("tutti")
