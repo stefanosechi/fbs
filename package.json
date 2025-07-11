@@ -3,13 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "pnpm install --no-frozen-lockfile",
+    "prebuild": "npm install",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
   },
-
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
     "@hookform/resolvers": "^3.9.1",
