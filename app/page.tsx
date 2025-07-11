@@ -16,9 +16,10 @@ import {
 } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
-import { AnimatedStats } from "@/components/animated-stats"
-import { WhatsAppChat } from "@/components/whatsapp-chat"
-import { Footer } from "@/components/footer"
+/* Removed imports of missing components to fix build errors */
+// import { AnimatedStats } from "@/components/animated-stats"
+// import { WhatsAppChat } from "@/components/whatsapp-chat"
+// import { Footer } from "@/components/footer"
 import { useState, useRef, useEffect } from "react"
 
 const testimonials = [
@@ -337,7 +338,7 @@ export default function HomePage() {
       </section>
 
       {/* Numeri Animati */}
-      <AnimatedStats />
+      {/* <AnimatedStats /> */}
 
       {/* Introduzione */}
       <section className="py-16 md:py-24">
@@ -632,10 +633,10 @@ export default function HomePage() {
       </section>
 
       {/* WhatsApp Chat */}
-      <WhatsAppChat />
+      {/* <WhatsAppChat /> */}
 
       {/* Footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
