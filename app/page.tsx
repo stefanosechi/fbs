@@ -19,7 +19,7 @@ import Image from "next/image"
 /* Removed imports of missing components to fix build errors */
 // import { AnimatedStats } from "@/components/animated-stats"
 // import { WhatsAppChat } from "@/components/whatsapp-chat"
-// import { Footer } from "@/components/footer"
+import { Footer } from "@/components/footer"
 import { useState, useRef, useEffect } from "react"
 
 const testimonials = [
@@ -636,7 +636,7 @@ export default function HomePage() {
       {/* <WhatsAppChat /> */}
 
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
