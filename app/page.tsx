@@ -385,47 +385,50 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "Cucine", href: "/cucine", image: "/cucine-1.jpg", icon: ChefHat },
-              { title: "Soggiorni", href: "/soggiorni", image: "/soggiorni-1.jpg", icon: Sofa },
-              { title: "Camere", href: "/camere", image: "/camere-1.jpg", icon: Bed },
-              { title: "Uffici", href: "/uffici", image: "/uffici-1.jpg", icon: Briefcase },
-              { title: "Bagni", href: "/bagni", image: "/bagni-1.jpg", icon: Bath },
+              { title: "Cucine", href: "/cucine", image: "/foto cucine moderne/cucinamoderna2.jpg", icon: ChefHat },
+              { title: "Soggiorni", href: "/soggiorni", image: "/foto soggiorni/soggiorno5.jpg", icon: Sofa },
+              { title: "Camere", href: "/camere", image: "/foto camere matrimoniali/cameramatrimoniale1.jpg", icon: Bed },
+              { title: "Uffici", href: "/uffici", image: "/foto uffici/ufficio1.jpg", icon: Briefcase },
+              { title: "Bagni", href: "/bagni", image: "/foto bagni classici/bagnoclassico2.jpg", icon: Bath },
               {
                 title: "Portfolio",
                 href: "/portfolio",
-                image: "/portfolio-1.jpg",
+                image: "/foto soggiorni/soggiorno9.jpg",
                 icon: ArrowRight,
               },
             ].map((sector, index) => {
               const IconComponent = sector.icon
               return (
-                <motion.div
-                  key={sector.title}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="group relative overflow-hidden rounded-lg bg-white shadow-sm hover:shadow-lg transition-shadow"
-                >
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <Image
-                      src={sector.image || "/placeholder.svg"}
-                      alt={sector.title}
-                      width={600}
-                      height={400}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                  </div>
-                  <div className="p-6">
-                    <div className="flex items-center gap-3 mb-4">
-                      <IconComponent size={24} className="text-gray-600" />
-                      <h3 className="text-xl font-semibold">{sector.title}</h3>
+                  <motion.div
+                    key={sector.title}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                    className="group relative overflow-hidden rounded-lg bg-white shadow-sm hover:shadow-lg transition-shadow cursor-pointer"
+                    onClick={() => {
+                      window.location.href = sector.href
+                    }}
+                  >
+                    <div className="aspect-[4/3] overflow-hidden">
+                      <Image
+                        src={sector.image || "/placeholder.svg"}
+                        alt={sector.title}
+                        width={600}
+                        height={400}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      />
                     </div>
-                    <Link href={sector.href} className="btn-circle" aria-label={`Vai a ${sector.title}`}>
-                      <ArrowRight size={20} />
-                    </Link>
-                  </div>
-                </motion.div>
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-4">
+                        <IconComponent size={24} className="text-gray-600" />
+                        <h3 className="text-xl font-semibold">{sector.title}</h3>
+                      </div>
+                      <Link href={sector.href} className="btn-circle" aria-label={`Vai a ${sector.title}`}>
+                        <ArrowRight size={20} />
+                      </Link>
+                    </div>
+                  </motion.div>
               )
             })}
           </div>
