@@ -47,7 +47,7 @@ export default function CucinePage() {
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center">
         <Image
-          src="/Cucina-Legno-Moderna.jpg?height=800&width=1200"
+          src="/foto cucine moderne/cucinamoderna2.jpg"
           alt="Cucine su misura"
           fill
           className="object-cover"

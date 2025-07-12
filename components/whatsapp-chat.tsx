@@ -79,7 +79,9 @@ export function WhatsAppChat() {
             >
               <div className="flex justify-between items-start mb-3">
                 <div>
-                  <h3 className="font-semibold text-gray-900">FBS Arredamenti</h3>
+              <div className="flex items-center gap-2">
+                <img src="/logofbs.svg" alt="FBS Arredamenti Logo" className="h-6 w-auto mb-2"/>
+              </div>
                   <p className="text-sm text-gray-500">Di solito risponde entro 24h</p>
                 </div>
                 <button onClick={() => setIsOpen(false)} className="text-gray-400 hover:text-gray-600">

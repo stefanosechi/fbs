@@ -101,8 +101,8 @@ export default function ChiSiamoPage() {
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-6">La Nostra Storia</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                FBS Arredamenti Alghero,Sassari, nasce dalla passione di una famiglia per l'arte del legno. Da oltre 30 anni realizziamo
-                mobili su misura unendo tradizione artigianale e innovazione tecnologica, per creare spazi unici che
+                Falegnameria Bruno Sechi nasce dalla passione di una famiglia per l'arte del legno. Da oltre 30 anni realizziamo
+                arredamento per interni ed esterni su misura, ad Alghero,Sassari e Nord Sardegna, unendo tradizione artigianale e innovazione tecnologica, per creare spazi unici che
                 rispecchiano la personalità di chi li vive.
               </p>
             </motion.div>

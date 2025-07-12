@@ -41,7 +41,7 @@ export default function BagniPage() {
     <div className="page-content">
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center">
-        <Image src="/bagni-1.jpg" alt="Bagni su misura" fill className="object-cover" priority />
+        <Image src="/foto bagni classici/bagnoclassico2.jpg" alt="Bagni su misura" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative text-center text-white px-4">
           <motion.h1

@@ -32,7 +32,7 @@ export default function CamerePage() {
     <div className="page-content">
       {/* Hero */}
       <section className="relative h-[60vh] flex items-center justify-center">
-        <Image src="/camere-1.jpg" alt="Camere su misura" fill className="object-cover" priority />
+        <Image src="/foto camere matrimoniali/cameramatrimoniale1.jpg" alt="Camere su misura" fill className="object-cover" priority />
         <div className="absolute inset-0 bg-black/40" />
         <div className="relative text-center text-white px-4">
           <motion.h1

@@ -191,7 +191,7 @@ export function Header() {
             </motion.div>
 
             <div className="flex items-center gap-2">
-              {/* CTA Mobile - Solo telefono */}
+              {/* CTA Mobile - Phone */}
               <motion.a
                 href="tel:+393382878847"
                 className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center shadow-lg"

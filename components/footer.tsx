@@ -15,7 +15,7 @@ export function Footer() {
              className="mb-4 w-40 h-auto"
             />
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Da oltre 30 anni realizziamo arredamenti su misura di alta qualità ad Alghero e Sassari,
+              Da oltre 30 anni Falegnameria Bruno Sechi realizza arredamenti su misura, di alta qualità, ad Alghero,Sassari e nord Sardegna,
               unendo tradizione artigianale e innovazione per creare spazi unici.
             </p>
             <div className="flex gap-4">
