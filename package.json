@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "npm install",
-    "postinstall": "npm install",
+    "prebuild": "",
+    "postinstall": "",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
