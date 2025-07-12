@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "prebuild": "npm install",
+    "postinstall": "npm install --only=dev",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
