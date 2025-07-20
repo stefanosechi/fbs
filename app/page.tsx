@@ -337,8 +337,53 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Numeri Animati */}
-      {/* <AnimatedStats /> */}
+{/* Review Badges Section */}
+      <section className="py-12 bg-gray-50">
+        <div className="container mx-auto px-4 flex justify-center gap-12">
+          <a
+            href="https://www.google.com/maps/place/Falegnameria+Bruno+Sechi/@40.6347286,8.1979019,17z/data=!4m7!3m6!1s0x12dceb1a84cc2afb:0x9bae1ecbb6bdf5c8!8m2!3d40.6347286!4d8.2000906!9m1!1b1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+            aria-label="Google Maps Reviews"
+          >
+            <img
+              src="/google-maps-badge-falegnameria-bruno-sechi.png"
+              alt="Google Maps Reviews"
+              className="h-16 object-contain"
+            />
+          </a>
+          <a
+            href="https://www.trustpilot.com/review/fbsarredamenti.it"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+            aria-label="Trustpilot Reviews"
+          >
+            <img
+              src="/trustpilot-badge-falegnameria-bruno-sechi.png"
+              alt="Trustpilot Reviews"
+              className="h-16 object-contain"
+            />
+          </a>
+          <a
+            href="https://yably.it/recensioni/alghero/falegnameria-bruno-sechi-punta-cristallo-8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+            aria-label="Trustpilot Reviews"
+          >
+            <img
+              src="/yably-badge-falegnameria-bruno-sechi.png"
+              alt="Yably Reviews"
+              className="h-16 object-contain"
+            />
+          </a>
+        </div>
+      </section>
+
+      {/* Animated Numbers Section */}
+      <AnimatedStats />
 
       {/* Introduzione */}
       <section className="py-16 md:py-24">

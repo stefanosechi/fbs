@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X, Phone, ChevronDown, ChefHat, Sofa, Bed, Briefcase, Bath, FileText } from "lucide-react"
+import { Menu, X, Phone, ChevronDown, ChefHat, Sofa, Bed, Briefcase, Bath, FileText, MessageCircle } from "lucide-react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 
@@ -191,7 +191,7 @@ export function Header() {
             </motion.div>
 
             <div className="flex items-center gap-2">
-              {/* CTA Mobile - Phone */}
+              {/* CTA Mobile - Phone + WhatsApp */}
               <motion.a
                 href="tel:+393382878847"
                 className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center shadow-lg"
@@ -200,6 +200,16 @@ export function Header() {
                 aria-label="Telefono"
               >
                 <Phone size={18} />
+              </motion.a>
+
+              <motion.a
+                href="https://wa.me/393382878847"
+                className="w-10 h-10 rounded-full bg-black text-white flex items-center justify-center shadow-lg"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                aria-label="WhatsApp"
+              >
+                <MessageCircle size={18} />
               </motion.a>
 
               {/* Menu Toggle */}

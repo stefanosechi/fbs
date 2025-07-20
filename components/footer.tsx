@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Phone, Mail, MapPin, MessageCircle, ChefHat, Sofa, Bed, Briefcase, Bath, Instagram, MessageCircleIcon } from "lucide-react"
+import { Phone, Mail, MapPin, MessageCircle, ChefHat, Sofa, Bed, Briefcase, Bath, Instagram, MessageCircleIcon, Facebook } from "lucide-react"
 import { WhatsAppChat } from "./whatsapp-chat"
 
 export function Footer() {
@@ -39,6 +39,20 @@ export function Footer() {
                 aria-label="Email"
               >
                 <Mail size={18} className="text-black" />
+              </a>
+               <a
+                href="https://www.instagram.com/falegnameriabrunosechi?igsh=YmxuN3pkbGNxNGVy"
+                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram size={18} className="text-black" />
+              </a>
+               <a
+                href="https://m.facebook.com/p/Falegnameria-Bruno-Sechi-61557152791138/"
+                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={18} className="text-black" />
               </a>
             </div>
           </div>

@@ -135,5 +135,41 @@ Stile coerente
 Ogni arredo viene progettato per dare un’immagine coerente e accogliente alla struttura, valorizzando la luce e gli spazi.
 
 Con la Falegnameria Bruno Sechi puoi contare su un servizio su misura, dalla progettazione all’installazione, anche per più ambienti. Richiedi un preventivo gratuito e migliora l’esperienza dei tuoi ospiti.`
+},
+{
+  id: 7,
+  slug: "mobili-su-misura-soggiorno-alghero",
+  title: "Mobili su misura per il soggiorno: eleganza artigianale ad Alghero",
+  date: "2025-07-19",
+  excerpt: "Personalizza il tuo soggiorno con mobili artigianali realizzati su misura a Alghero e Sassari da Falegnameria Bruno Sechi.",
+  image: "/foto blog/soggiorno-su-misura-falegnameria-bruno-sechi.jpg",
+  content: "Un soggiorno ben arredato è il cuore di ogni casa. Con i mobili su misura della Falegnameria Bruno Sechi, puoi creare un ambiente accogliente e funzionale, adattato al tuo spazio e al tuo stile.\n\nRealizziamo pareti attrezzate, librerie, mobili TV e tavoli da soggiorno su misura ad Alghero, Sassari e in tutta la provincia. Ogni pezzo è unico e costruito con legni pregiati, per garantire durata e design personalizzato. Contattaci per un progetto su misura per il tuo soggiorno."
+},
+{
+  id: 8,
+  slug: "camere-da-letto-su-misura-nord-sardegna",
+  title: "Camere da letto su misura: riposo e stile nel nord Sardegna",
+  date: "2025-07-19",
+  excerpt: "Progettiamo camere da letto su misura ad Alghero, Sassari e provincia. Comfort, funzionalità e materiali di alta qualità.",
+  image: "/foto blog/camera-da-letto-su-misura-falegnameria-bruno-sechi.jpg",
+  content: "Una camera da letto deve trasmettere serenità e ordine. I nostri mobili su misura, realizzati artigianalmente, permettono di sfruttare ogni angolo con eleganza. \n\nDalla testata del letto agli armadi su misura, ogni dettaglio viene progettato per armonizzarsi con l'ambiente. La Falegnameria Bruno Sechi lavora ad Alghero, Sassari e nel nord Sardegna per trasformare ogni stanza in uno spazio unico e funzionale."
+},
+{
+  id: 9,
+  slug: "arredo-bagno-su-misura-sassari-alghero",
+  title: "Arredo bagno su misura ad Alghero e Sassari",
+  date: "2025-07-19",
+  excerpt: "Fai del tuo bagno un ambiente elegante e funzionale con arredi su misura progettati artigianalmente in Sardegna.",
+  image: "/foto bagni servizi/bagnoservizi1.jpg",
+  content: "Il bagno è uno degli ambienti più utilizzati della casa, e merita un arredo su misura. La Falegnameria Bruno Sechi realizza mobili bagno resistenti all’umidità, pensili, lavabi integrati e scaffalature in legno massello.\n\nI nostri progetti nascono da un sopralluogo attento e dalla selezione dei migliori materiali. Lavoriamo tra Alghero e Sassari, offrendo soluzioni su misura per spazi piccoli o grandi, con attenzione a estetica e praticità."
+},
+{
+  id: 10,
+  slug: "arredamento-uffici-su-misura-alghero",
+  title: "Uffici su misura ad Alghero e Sassari: produttività e design artigianale",
+  date: "2025-07-19",
+  excerpt: "Mobili su misura per uffici, studi e coworking. Design funzionale e artigianato di qualità in Sardegna.",
+  image: "/foto uffici/ufficio1.jpg",
+  content: "Un ufficio ben progettato stimola concentrazione e benessere. Noi della Falegnameria Bruno Sechi realizziamo arredamenti su misura per studi professionali, reception e ambienti di lavoro, con soluzioni personalizzate ed ergonomiche.\n\nScrivanie, scaffalature e mobili archivio sono realizzati su richiesta, scegliendo tra diverse essenze di legno e finiture moderne. Siamo operativi ad Alghero, Sassari e in tutto il nord della Sardegna."
 }
 ]
