@@ -340,6 +340,7 @@ export default function HomePage() {
 {/* Review Badges Section */}
       <section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4 flex justify-center gap-12">
+          {/*
           <a
             href="https://www.google.com/maps/place/Falegnameria+Bruno+Sechi/@40.6347286,8.1979019,17z/data=!4m7!3m6!1s0x12dceb1a84cc2afb:0x9bae1ecbb6bdf5c8!8m2!3d40.6347286!4d8.2000906!9m1!1b1"
             target="_blank"
@@ -353,6 +354,7 @@ export default function HomePage() {
               className="h-16 object-contain"
             />
           </a>
+          */}
           <a
             href="https://www.trustpilot.com/review/fbsarredamenti.it"
             target="_blank"
@@ -363,7 +365,7 @@ export default function HomePage() {
             <img
               src="/trustpilot-badge-falegnameria-bruno-sechi.png"
               alt="Trustpilot Reviews"
-              className="h-16 object-contain"
+              className="h-20 object-contain"
             />
           </a>
           <a
@@ -376,7 +378,7 @@ export default function HomePage() {
             <img
               src="/yably-badge-falegnameria-bruno-sechi.png"
               alt="Yably Reviews"
-              className="h-16 object-contain"
+              className="h-20 object-contain"
             />
           </a>
         </div>
