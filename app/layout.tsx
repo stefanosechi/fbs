@@ -1,24 +1,29 @@
+"use client";
+
 import type React from "react"
-import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import dynamic from "next/dynamic"
-
-const Header = dynamic(() => import("../components/header").then(mod => mod.Header), { ssr: false })
+import { useEffect } from "react"
+import { Header } from "../components/header";
 
 const inter = Inter({ subsets: ["latin"] })
-
-export const metadata: Metadata = {
-  title: "Falegnameria Bruno Sechi - Arredamenti su Misura ad Alghero e Sassari",
-  description:"Realizziamo arredamenti su misura per cucine, soggiorni, camere, uffici e bagni ad Alghero, Sassari e nel nord Sardegna. Falegnameria artigianale di qualità con oltre 30 anni di esperienza.",
-  generator: ""
-}
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
+  useEffect(() => {
+    const script = document.createElement("script")
+    script.id = "Cookiebot"
+    script.src = "https://consent.cookiebot.com/uc.js"
+    script.setAttribute("data-cbid", "b44d130c-bd98-4390-bf3c-5a30ce3167df")
+    script.setAttribute("data-blockingmode", "auto")
+    script.type = "text/javascript"
+    document.head.appendChild(script)
+  }, [])
+
   return (
     <html lang="it">
       <head>
